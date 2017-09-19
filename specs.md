@@ -1,11 +1,16 @@
 # Tictactoe...
 
-## version 0.0.0
+## version 0.1.0
+
+* nextPlayer: boolean
+    * initialized : true
+    * purpose: store player turn
 
 * play: function
     * args: 1
-        * box: node
-        * purpose : pass html node to select and inject
+        * box : node
+        * purpose : take node as argument
     * return : undefined
-    * purpose : setting up nodes inner html
-    * behavior : takes nodes id and pass as inner html for node
+    * purpose: set nodes innerHTML to players sign and change player playing
+    * behavior : sets box to '0' or 'x' depends on player playing,and change who's turn it is.
+        

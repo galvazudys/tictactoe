@@ -1,4 +1,10 @@
+//store player turn
+var nextPlayer = true;
+
+
 function play(box) {
-	//behavior : takes nodes id and pass as inner html for node
-	box.innerHTML = box.id;
+	//sets box to 'o' or 'x' depends on player playing,and change who's turn it is.
+	nextPlayer ? box.innerHTML = 'o' : box.innerHTML = 'x';
+	nextPlayer = !nextPlayer;
+	
 }
