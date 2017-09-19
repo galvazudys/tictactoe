@@ -8,7 +8,7 @@
 
 
 * boardState : array
-    * initialized: 9 x null
+    * initialized: 3x array with 3x nulls
     * Store board state.
 
 * play: function
@@ -17,10 +17,12 @@
         * purpose : take node as argument
     * return : undefined
     * purpose: place players move 
-    * behavior : player takes turn on box,check box clicked is empty,then user place 'x' or 'o',we call function to populate board and change player playing, if player made move on already existing box,we trow warning .if all whent ok we console.log board.
+    * behavior : player take move on board,his place 'x' or 'o' on on board box state with colum and row atribute,if is empty,we check witch player playing,and place 'x' or 'o' on board state,then we populate.if player placed on not empty box we trow warning with message and populate board.
 
 * populateBoard: function
     * args : 0
     * return : undefined
-    * purpose: display players moves in boxes
-    * behavior : loops over 9 items and for each item display in each box from html state from board array.
+    * purpose: display players boards state to player
+    * behavior : loop over board state and display to a player in DOM.
+
+

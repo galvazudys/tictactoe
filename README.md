@@ -16,4 +16,8 @@
 ## version 0.3.0
 
 > game working as intended,you can place moves to boxes ,and if you place in same box,it's give you warning.
+
+## version 0.4.0
+
+> updated working version to use columns and rows.
 # MORE COMMING SOON................
